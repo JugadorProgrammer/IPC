@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2bcf23ec0ddf84220305.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "XOR",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "XOR::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-XOR-Debug-0456549ddd48082a36cb.json",
+					"name" : "XOR",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "XOR_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-XOR_autogen-Debug-40c1fd32393bf33043d6.json",
+					"name" : "XOR_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "XOR_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-XOR_autogen_timestamp_deps-Debug-47c35ce9265cb1bdbf37.json",
+					"name" : "XOR_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ilya/Documents/Projects/Qt/IPC/XOR/build/Desktop-Debug",
+		"source" : "/home/ilya/Documents/Projects/Qt/IPC/XOR"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+COUNT=4096
+
+if [ -n "$1" ]
+then
+> "$1"
+	for (( i=0; i < $COUNT; i++ ))
+	do
+		echo $((RANDOM % 256))
+	done > "$1"
+else
+	echo "Use ./my_random_sequece <file_name>"
+fi
